@@ -308,16 +308,14 @@ try and no error
 # Let's look over some of their data, look at a .csv file.
 
 #install.packages('tidyverse')
-#install.packages('ggplot2')
 library(tidyverse)
-library(ggplot2)
 
 College.data <- read.csv("http://www.equality-of-opportunity.org/data/college/mrc_table1.csv")
-View(College.data)
+# View(College.data)
 
 College.data %>% ggplot(aes(par_median , k_median )) + 
   geom_jitter() + 
-  geom_smooth(method='lm') + 
+  geom_smooth(method = 'lm') + 
   labs(x = "Median parent household income, $", 
        y = "Median child individual earnings in 2014, $", 
        title = "Intergenerational Income Comaprison among US Colleges") + 
