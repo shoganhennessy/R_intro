@@ -1,3 +1,8 @@
+### Kyle Wilson and Senan Hogan-Hennessy, Fall 2017
+
+### This file is an interactive introduction to R, with a focus towards its use for data analysis and economics
+
+
 2+2
 2*3
 
