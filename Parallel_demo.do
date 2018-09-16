@@ -36,7 +36,8 @@ foreach variable of local list {
 
 end //Finish defining programme
 
-parallel, prog(parfor): parfor y_pll   // Call the  programme
+// Call the  programme
+parallel, prog(parfor): parfor y_pll   
 
 // The Programme starts 4 (number of cores defined) simultaneous do files
 // that are run the code at the level of the loop.
