@@ -9,7 +9,6 @@
 clear all
 set more off, permanently
 set seed 47
-cd "C:/Users/shoganhennessy/Documents/Academic_work"
 set obs 100
 
 // Demonstrate serial code that is to be parallelised
